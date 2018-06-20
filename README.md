@@ -10,7 +10,7 @@
 ## Install
 
 ```
-git clone ...
+git clone https://github.com/Cryden/wp_config.git
 
 yarn install
 
