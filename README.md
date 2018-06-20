@@ -39,7 +39,42 @@ npm run prod
 
 ## Features
 
-[x] HTML 5 Templates
+### Template Engines
 
-## ToDo
+[x] Html 5
 
+[x] Pug
+
+___
+
+### CSS Preprocessors
+
+[] CSS
+
+[] Sass
+
+[] Less
+
+___
+
+### JS Transpilers & Extension
+
+[] Babel JS 
+
+___
+
+### CSS Frameworks
+
+[] Bootstrap
+
+___
+
+### JS Frameworks
+
+[] Vue
+
+___
+
+### Tools
+
+[] PWA
