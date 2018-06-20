@@ -25,7 +25,9 @@ Developing mode
 
 ```
 yarn dev
+
 or
+
 npm run dev
 ```
 
@@ -33,48 +35,51 @@ Production mode
 
 ```
 yarn prod
+
 or
+
 npm run prod
 ```
 
 ## Features
 
+
 ### Template Engines
 
-[x] Html 5
+[ x ] Html 5
 
-[x] Pug
+[ x ] Pug
 
 ___
 
 ### CSS Preprocessors
 
-[] CSS
+[ ] CSS
 
-[] Sass
+[ ] Sass
 
-[] Less
+[ ] Less
 
 ___
 
 ### JS Transpilers & Extension
 
-[] Babel JS 
+[ ] Babel JS 
 
 ___
 
 ### CSS Frameworks
 
-[] Bootstrap
+[ ] Bootstrap
 
 ___
 
 ### JS Frameworks
 
-[] Vue
+[ ] Vue
 
 ___
 
 ### Tools
 
-[] PWA
+[ ] PWA
