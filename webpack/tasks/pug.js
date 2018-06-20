@@ -7,7 +7,7 @@ let dirFiles = fs.readdirSync(path.join('source/pug'))
 
 for (let i = 0; i < dirFiles.length; i++) {
   if (dirFiles[i].endsWith('.pug')) {
-    let keyName = dirFiles[i].substring(0, dirFiles[i].length - '.yml'.length)
+    let keyName = dirFiles[i].substring(0, dirFiles[i].length - '.pug'.length)
     files[keyName] = path.join('source/pug', dirFiles[i])
   }
 }
