@@ -4,7 +4,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin')
 const path = require('path')
 
 let cleanOptions = {
-  root: path.resolve()
+  root: path.resolve(),
+  verbose: false,
 }
 
 module.exports = clean => {

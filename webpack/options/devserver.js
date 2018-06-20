@@ -1,6 +1,6 @@
 const path = require('path')
 
-module.exports = devserver => {
+module.exports = devServer => {
   return {
     devServer: {
       contentBase: path.resolve('dist'),

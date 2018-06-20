@@ -83,3 +83,7 @@ ___
 ### Tools
 
 [ ] PWA
+
+## Credits
+
+https://github.com/johnagan/clean-webpack-plugin
