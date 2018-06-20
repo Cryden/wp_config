@@ -22,8 +22,8 @@ let common = {
 
 module.exports = merge([
   common,
-  getTasks(),
-  getOptions()
+  getSource(tasks),
+  getSource(options)
 ])
 
 function isProduction () {
@@ -37,22 +37,19 @@ function isProduction () {
   return false
 }
 
-function getTasks () {
+function getSource(data) {
   let modules = {}
-  for (const key in tasks) {
-    if (tasks.hasOwnProperty(key)) {
-      modules = _.assign(eval(tasks[key])())
+  for (const key in data) {
+    if (data.hasOwnProperty(key)) {
+      modules = _.mergeWith(eval(data[key])(), modules, customizer)
     }
   }  
   return modules
+
+  function customizer(objValue, srcValue) {
+    if (_.isArray(objValue)) {
+      return objValue.concat(srcValue);
+    }
+  }
 }
 
-function getOptions () {
-  let modules = {}
-  for (const key in options) {
-    if (options.hasOwnProperty(key)) {
-      modules = _.assign(eval(options[key])())
-    }
-  }  
-  return modules
-}
