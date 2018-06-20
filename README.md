@@ -56,7 +56,7 @@ ___
 
 - [x] CSS
 
-- [ ] Sass
+- [x] Sass
 
 - [ ] Less
 
