@@ -56,33 +56,33 @@ ___
 
 - [x] CSS
 
-- [] Sass
+- [ ] Sass
 
-- [] Less
+- [ ] Less
 
 ___
 
 ### JS Transpilers & Extension
 
-- [] Babel JS 
+- [ ] Babel JS 
 
 ___
 
 ### CSS Frameworks
 
-- [] Bootstrap
+- [ ] Bootstrap
 
 ___
 
 ### JS Frameworks
 
-- [] Vue
+- [ ] Vue
 
 ___
 
 ### Tools
 
-- [] PWA
+- [ ] PWA
 
 ## Credits
 
