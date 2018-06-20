@@ -9,8 +9,11 @@ let optionspath = path.resolve('webpack/options/')
 const options = require('require-all')(optionspath)
 
 let common = {
+  context: path.resolve('source'),
   entry: {
-    index: './source/bootstrap.js'
+    index: ['./js/index.js',
+    './css/styles.css',
+    './sass/styles.sass']
   },
   output: {
     path: path.resolve('dist'),

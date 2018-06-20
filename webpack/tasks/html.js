@@ -8,7 +8,7 @@ let dirFiles = fs.readdirSync(path.join('source/html'))
 for (let i = 0; i < dirFiles.length; i++) {
   if (dirFiles[i].endsWith('.html')) {
     let keyName = dirFiles[i].substring(0, dirFiles[i].length - '.html'.length)
-    files[keyName] = path.join('source/html', dirFiles[i])
+    files[keyName] = path.join('html', dirFiles[i])
   }
 }
 
